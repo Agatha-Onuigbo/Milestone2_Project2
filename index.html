@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./images/world.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div>
+                <h1 onclick="whereInTheWorld ()" class="whereInTheWorld">Where in the world?</h1>
+            </div>
+            <div class="navleft">
+                <div>
+                    <img src="./images/moon-svgrepo-com.svg" alt="">
+                    <p>Dark Mode</p>
+                </div>
+                <div>
+                    <img src="./images/moon-svgrepo-com.svg" alt="">
+                    <p>Light Mode</p>
+                </div>
+            </div>
+        </nav>
+    </header>    
+    <div class="searching">
+        <div class="search1">
+            <img src="./images/icons8-search.svg" alt="">
+            <input type="text" value="" id="searchBox" placeholder="Search for a country ...">
+        </div>
+        <div>
+            <select name="" id="" class="selectRegion" >
+                <option value="" disabled selected hidden id="fiter">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+    </div>
+        <div class="cards">
+            
+        </div>
+
+    <script src="./stylee.js"></script>
+</body>
+</html>
